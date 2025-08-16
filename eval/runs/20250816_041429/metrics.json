@@ -1,0 +1,3288 @@
+{
+  "retrieval": {
+    "overall": {
+      "precision_at_5": 0.10555555555555556,
+      "recall_at_10": 0.2916666666666667,
+      "mrr": 0.23263888888888887,
+      "num_queries": 24
+    },
+    "by_mem_type": {
+      "IC": {
+        "precision_at_5": 0.1037037037037037,
+        "recall_at_10": 0.3055555555555556,
+        "mrr": 0.22685185185185183,
+        "num_queries": 18
+      },
+      "WM": {
+        "precision_at_5": 0.0962962962962963,
+        "recall_at_10": 0.2222222222222222,
+        "mrr": 0.19444444444444445,
+        "num_queries": 9
+      }
+    },
+    "by_chapter_bucket": {
+      "1-10": {
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr": 0.0,
+        "num_queries": 7
+      },
+      "11-20": {
+        "precision_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr": 0.0,
+        "num_queries": 7
+      },
+      "21-30": {
+        "precision_at_5": 0.21666666666666667,
+        "recall_at_10": 0.625,
+        "mrr": 0.5625,
+        "num_queries": 4
+      },
+      "31-40": {
+        "precision_at_5": 0.27777777777777773,
+        "recall_at_10": 0.75,
+        "mrr": 0.5555555555555556,
+        "num_queries": 6
+      }
+    }
+  },
+  "consistency": {
+    "time_overlap_conflicts": 0,
+    "world_future_leaks": 255,
+    "crosstalk_leaks": 0,
+    "symmetry_violations": 3,
+    "details": {
+      "overlap": [],
+      "leaks": [
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "0da0d3e5-8b1b-40c6-ad9d-f8b97ddcf204",
+            "chapter_start": 2,
+            "mem_type": "IC",
+            "fact_text": "Sylvain and Annette share an easy intimacy"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "e0def1de-094e-4234-abdc-9a4f920c5c42",
+            "chapter_start": 2,
+            "mem_type": "IC",
+            "fact_text": "Their established relationship is clear"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "20f7ec6f-262b-496c-87fa-1b3043da3a96",
+            "chapter_start": 3,
+            "mem_type": "IC",
+            "fact_text": "Byleth approaches Dimitri's desk after hours and weaves a plausible story about needing help with a task"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch1-byleth-first-day",
+          "query_chapter": 1,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "20f7ec6f-262b-496c-87fa-1b3043da3a96",
+            "chapter_start": 3,
+            "mem_type": "IC",
+            "fact_text": "Byleth approaches Dimitri's desk after hours and weaves a plausible story about needing help with a task"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch2-sylvain-annette",
+          "query_chapter": 2,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch3-byleth-dimitri",
+          "query_chapter": 3,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch7-affair-begins",
+          "query_chapter": 7,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch8-secrecy",
+          "query_chapter": 8,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "eaec520a-5ed4-4d69-98bb-79e0552cde23",
+            "chapter_start": 10,
+            "mem_type": "IC",
+            "fact_text": "Byleth maintains control over the narrative between them"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch9-dedue-suspicion",
+          "query_chapter": 9,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch10-byleth-control",
+          "query_chapter": 10,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "b603cb9c-6a7c-4f6c-8bee-547667557859",
+            "chapter_start": 13,
+            "mem_type": "IC",
+            "fact_text": "Sylvain sent a suggestive notification to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch11-sylvain-numbers",
+          "query_chapter": 11,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "df041648-5181-4d65-a2f2-ab441f6a1f45",
+            "chapter_start": 15,
+            "mem_type": "IC",
+            "fact_text": "Byleth suggests a private meeting with the user at 'The Lost Saint', a dimly lit bar"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch13-texting-scandal",
+          "query_chapter": 13,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "e7ff2420-f034-45f4-9577-bc90976f4326",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "Byleth sends Dimitri a carefully worded text in anticipation of a meeting"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "d59a43cd-4108-449b-9adc-a02355d48caa",
+            "chapter_start": 16,
+            "mem_type": "IC",
+            "fact_text": "The alibi for the date with Sylvain is successfully established"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch15-lost-saint",
+          "query_chapter": 15,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch16-alibi-creation",
+          "query_chapter": 16,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "9481f7f4-256b-41bc-a8af-e28d17ba9ea5",
+            "chapter_start": 18,
+            "mem_type": "IC",
+            "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement."
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch17-chemistry",
+          "query_chapter": 17,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "62325398-ed36-4aec-9759-8de9554c6948",
+            "chapter_start": 19,
+            "mem_type": "WM",
+            "fact_text": "Management is taking steps to maintain secrecy about their relationship"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch18-secrecy-agreement",
+          "query_chapter": 18,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "e665adc0-39d0-4728-9b1d-a925612ce00e",
+            "chapter_start": 23,
+            "mem_type": "IC",
+            "fact_text": "Dimitri invites user to dinner at his apartment tonight"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch19-secrecy-pact",
+          "query_chapter": 19,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "chapter_start": 26,
+            "mem_type": "IC",
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch23-apartment-dinner",
+          "query_chapter": 23,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "b0e205b9-78bb-4759-bba0-d5b6076a0eee",
+            "chapter_start": 27,
+            "mem_type": "IC",
+            "fact_text": "Dedue presents the found earring to Dimitri privately without accusation"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "78732da4-d8a3-4fb7-a277-ac92314b4a29",
+            "chapter_start": 27,
+            "mem_type": "WM",
+            "fact_text": "He advises prudence regarding workplace entanglements"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch26-earring-discovery",
+          "query_chapter": 26,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "dcc11620-1c77-4f29-bf3a-8810facdcf21",
+            "chapter_start": 29,
+            "mem_type": "C2U",
+            "fact_text": "Dimitri sent an invitation for lunch via text to the user"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch27-dedue-warning",
+          "query_chapter": 27,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch29-lunch-invitation",
+          "query_chapter": 29,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch29-lunch-invitation",
+          "query_chapter": 29,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch29-lunch-invitation",
+          "query_chapter": 29,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch29-lunch-invitation",
+          "query_chapter": 29,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch29-lunch-invitation",
+          "query_chapter": 29,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch31-public-betrayal",
+          "query_chapter": 31,
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "chapter_start": 34,
+            "mem_type": "IC",
+            "fact_text": "User had an interaction with Dimitri"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch31-public-betrayal",
+          "query_chapter": 31,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch31-public-betrayal",
+          "query_chapter": 31,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch31-public-betrayal",
+          "query_chapter": 31,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch31-public-betrayal",
+          "query_chapter": 31,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch34-confrontation",
+          "query_chapter": 34,
+          "memory": {
+            "id": "36a945fa-1c5b-46e9-a464-eaca69dda79f",
+            "chapter_start": 35,
+            "mem_type": "IC",
+            "fact_text": "Byleth feigns surprise and indignation at Sylvain's accusatory tone"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch34-confrontation",
+          "query_chapter": 34,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch34-confrontation",
+          "query_chapter": 34,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch34-confrontation",
+          "query_chapter": 34,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch35-byleth-deflection",
+          "query_chapter": 35,
+          "memory": {
+            "id": "c2a8eff0-9dc8-4446-9766-6db1a4bf53fa",
+            "chapter_start": 36,
+            "mem_type": "IC",
+            "fact_text": "Sylvain is thrown off balance by Annette's involvement"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch35-byleth-deflection",
+          "query_chapter": 35,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch35-byleth-deflection",
+          "query_chapter": 35,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch36-annette-involvement",
+          "query_chapter": 36,
+          "memory": {
+            "id": "46eb16cf-4ced-4215-b4e6-85785d425720",
+            "chapter_start": 38,
+            "mem_type": "WM",
+            "fact_text": "Corporate memo circulated"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch36-annette-involvement",
+          "query_chapter": 36,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        },
+        {
+          "type": "world_future_leak",
+          "query_id": "q-ch38-virus-alert",
+          "query_chapter": 38,
+          "memory": {
+            "id": "1e7f98c0-1c62-41a9-8541-f53fad08f424",
+            "chapter_start": 39,
+            "mem_type": "WM",
+            "fact_text": "'It's happening over there,' irrelevant to their lives and office dramas here"
+          }
+        }
+      ],
+      "crosstalk": [],
+      "symmetry": [
+        {
+          "type": "symmetry_violation",
+          "predicate": "relationship_status",
+          "memory": {
+            "id": "0da0d3e5-8b1b-40c6-ad9d-f8b97ddcf204",
+            "subjects": [
+              "sylvain",
+              "annette"
+            ],
+            "fact_text": "Sylvain and Annette share an easy intimacy"
+          },
+          "issue": "Subjects not sorted: ['sylvain', 'annette'] should be ['annette', 'sylvain']"
+        },
+        {
+          "type": "symmetry_violation",
+          "predicate": "relationship_status",
+          "memory": {
+            "id": "25adbb1a-2ef3-4ea0-908a-8d39d244d1f5",
+            "subjects": [
+              "user",
+              "dimitri"
+            ],
+            "fact_text": "User had an interaction with Dimitri"
+          },
+          "issue": "Subjects not sorted: ['user', 'dimitri'] should be ['dimitri', 'user']"
+        },
+        {
+          "type": "symmetry_violation",
+          "predicate": "evidence",
+          "memory": {
+            "id": "78bf93c6-52c2-4361-9574-9efd84221f0b",
+            "subjects": [
+              "user_123",
+              "dimitri"
+            ],
+            "fact_text": "Dimitri's suspicion was confirmed by concrete evidence"
+          },
+          "issue": "Subjects not sorted: ['user_123', 'dimitri'] should be ['dimitri', 'user_123']"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "overall": 0.03515625000000001,
+    "min_per_chapter": 0.0,
+    "by_chapter": {
+      "1": {
+        "chapter": 1,
+        "total_facts": 3,
+        "covered_count": 0,
+        "total_weight": 2.5,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-1-1",
+          "kf-1-2",
+          "kf-1-3"
+        ]
+      },
+      "2": {
+        "chapter": 2,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.95,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-2-1"
+        ]
+      },
+      "3": {
+        "chapter": 3,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-3-1"
+        ]
+      },
+      "7": {
+        "chapter": 7,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.95,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-7-1"
+        ]
+      },
+      "8": {
+        "chapter": 8,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.85,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-8-1"
+        ]
+      },
+      "9": {
+        "chapter": 9,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-9-1"
+        ]
+      },
+      "10": {
+        "chapter": 10,
+        "total_facts": 1,
+        "covered_count": 1,
+        "total_weight": 0.9,
+        "covered_weight": 0.9,
+        "coverage": 1.0,
+        "covered_facts": [
+          "kf-10-1"
+        ],
+        "missed_facts": []
+      },
+      "11": {
+        "chapter": 11,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.85,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-11-1"
+        ]
+      },
+      "13": {
+        "chapter": 13,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-13-1"
+        ]
+      },
+      "15": {
+        "chapter": 15,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.8,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-15-1"
+        ]
+      },
+      "16": {
+        "chapter": 16,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-16-1"
+        ]
+      },
+      "17": {
+        "chapter": 17,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-17-1"
+        ]
+      },
+      "18": {
+        "chapter": 18,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-18-1"
+        ]
+      },
+      "19": {
+        "chapter": 19,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.95,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-19-1"
+        ]
+      },
+      "23": {
+        "chapter": 23,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-23-1"
+        ]
+      },
+      "26": {
+        "chapter": 26,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.95,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-26-1"
+        ]
+      },
+      "27": {
+        "chapter": 27,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-27-1"
+        ]
+      },
+      "29": {
+        "chapter": 29,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.85,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-29-1"
+        ]
+      },
+      "31": {
+        "chapter": 31,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.95,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-31-1"
+        ]
+      },
+      "34": {
+        "chapter": 34,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-34-1"
+        ]
+      },
+      "35": {
+        "chapter": 35,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-35-1"
+        ]
+      },
+      "38": {
+        "chapter": 38,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.8,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-38-1"
+        ]
+      },
+      "39": {
+        "chapter": 39,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.75,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-39-1"
+        ]
+      },
+      "40": {
+        "chapter": 40,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.85,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-40-1"
+        ]
+      },
+      "42": {
+        "chapter": 42,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-42-1"
+        ]
+      },
+      "45": {
+        "chapter": 45,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-45-1"
+        ]
+      },
+      "47": {
+        "chapter": 47,
+        "total_facts": 1,
+        "covered_count": 0,
+        "total_weight": 0.9,
+        "covered_weight": 0,
+        "coverage": 0.0,
+        "covered_facts": [],
+        "missed_facts": [
+          "kf-47-1"
+        ]
+      }
+    },
+    "total_keyfacts": 27,
+    "covered_keyfacts": 1,
+    "total_weight": 25.599999999999998,
+    "covered_weight": 0.9
+  },
+  "status": "FAIL",
+  "gate_results": {
+    "precision_at_5": {
+      "status": "FAIL",
+      "expected": ">= 0.6",
+      "actual": 0.10555555555555556
+    },
+    "recall_at_10": {
+      "status": "FAIL",
+      "expected": ">= 0.7",
+      "actual": 0.2916666666666667
+    },
+    "mrr": {
+      "status": "FAIL",
+      "expected": ">= 0.65",
+      "actual": 0.23263888888888887
+    },
+    "max_time_overlap_conflicts": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "max_world_future_leaks": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "max_crosstalk_leaks": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "min_overall": {
+      "status": "FAIL",
+      "expected": ">= 0.7",
+      "actual": 0.03515625000000001
+    },
+    "min_per_chapter": {
+      "status": "FAIL",
+      "expected": ">= 0.5",
+      "actual": 0.0
+    }
+  },
+  "timestamp": "20250816_041429"
+}

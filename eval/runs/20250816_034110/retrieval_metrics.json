@@ -1,0 +1,30 @@
+{
+  "overall": {
+    "precision_at_5": 0.1,
+    "recall_at_10": 1.0,
+    "mrr": 0.5,
+    "num_queries": 1
+  },
+  "by_mem_type": {
+    "IC": {
+      "precision_at_5": 0.1,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "num_queries": 1
+    },
+    "WM": {
+      "precision_at_5": 0.1,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "num_queries": 1
+    }
+  },
+  "by_chapter_bucket": {
+    "31-40": {
+      "precision_at_5": 0.1,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "num_queries": 1
+    }
+  }
+}

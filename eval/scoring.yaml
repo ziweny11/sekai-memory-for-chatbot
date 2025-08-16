@@ -1,0 +1,12 @@
+gates:
+  retrieval:
+    precision_at_5: {min: 0.60}
+    recall_at_10: {min: 0.70}
+    mrr: {min: 0.65}
+  consistency:
+    max_time_overlap_conflicts: {max: 0}
+    max_world_future_leaks: {max: 0}
+    max_crosstalk_leaks: {max: 0}
+  coverage:
+    min_overall: {min: 0.70}
+    min_per_chapter: {min: 0.50}

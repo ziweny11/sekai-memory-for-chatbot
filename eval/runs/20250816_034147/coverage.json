@@ -1,0 +1,22 @@
+{
+  "overall": 1.0,
+  "min_per_chapter": 1.0,
+  "by_chapter": {
+    "26": {
+      "chapter": 26,
+      "total_facts": 1,
+      "covered_count": 1,
+      "total_weight": 3,
+      "covered_weight": 3,
+      "coverage": 1.0,
+      "covered_facts": [
+        "kf-26-1"
+      ],
+      "missed_facts": []
+    }
+  },
+  "total_keyfacts": 1,
+  "covered_keyfacts": 1,
+  "total_weight": 3,
+  "covered_weight": 3
+}

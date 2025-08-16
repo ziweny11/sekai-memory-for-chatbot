@@ -1,0 +1,1 @@
+{"qid": "q-31-sylvain", "pred_gold_ids": ["g-28-3", "g-26-1", "g-27-2"], "gold_ids": ["g-26-1"], "k": 10, "precision_at_k": 0.1, "recall_at_k": 1.0, "mrr": 0.5, "chapter": 31, "mem_types": ["IC", "WM"], "speaker": "sylvain", "participants": ["sylvain", "byleth", "dimitri"]}

@@ -1,0 +1,26 @@
+{
+  "time_overlap_conflicts": 0,
+  "world_future_leaks": 0,
+  "crosstalk_leaks": 0,
+  "symmetry_violations": 1,
+  "details": {
+    "overlap": [],
+    "leaks": [],
+    "crosstalk": [],
+    "symmetry": [
+      {
+        "type": "symmetry_violation",
+        "predicate": "relationship_status",
+        "memory": {
+          "id": "test-3",
+          "subjects": [
+            "dimitri",
+            "byleth"
+          ],
+          "fact_text": "Byleth and Dimitri started a secret affair."
+        },
+        "issue": "Subjects not sorted: ['dimitri', 'byleth'] should be ['byleth', 'dimitri']"
+      }
+    ]
+  }
+}

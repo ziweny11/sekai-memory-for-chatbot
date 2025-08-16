@@ -1,0 +1,945 @@
+{
+  "overall_coverage": 0.95,
+  "total_facts": 60,
+  "covered_facts": 57,
+  "chapter_coverage": [
+    {
+      "chapter": 1,
+      "facts": [
+        {
+          "fact_id": "kf-1-1",
+          "fact_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-1-2",
+          "fact_text": "Byleth steps into Garreg Mach Corp, the air buzzing with first-day energy",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 2,
+      "facts": [
+        {
+          "fact_id": "kf-2-1",
+          "fact_text": "Byleth observes in a quiet corner of the cafeteria",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "52e33846-b98d-4a44-8b27-3258ec46964f",
+          "matched_memory_text": "Byleth observes in a quiet corner of the cafeteria",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-2-2",
+          "fact_text": "Their established relationship is clear",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "21d68e99-1c8b-4973-84a1-790c3593f844",
+          "matched_memory_text": "Their established relationship is clear.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-2-3",
+          "fact_text": "Byleth considers this dynamic as a potential leverage for future encounters",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "16e1c28b-d570-440d-9a77-01351b16f3f9",
+          "matched_memory_text": "Byleth considers this dynamic as a potential leverage for future encounters",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 3,
+      "covered_facts": 3,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 3,
+      "facts": [
+        {
+          "fact_id": "kf-3-1",
+          "fact_text": "First gambit initiated in the world",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "7a3e31be-1a8f-4804-9719-784f2b7e4640",
+          "matched_memory_text": "First gambit initiated in the world",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-3-2",
+          "fact_text": "The feigned vulnerability aims to disarm his intensity, creating an opening for a more personal connection",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "c0a6142e-33e9-4dda-8aab-7cecc1ee5d38",
+          "matched_memory_text": "The feigned vulnerability aims to disarm his intensity, creating an opening for a more personal connection.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 4,
+      "facts": [
+        {
+          "fact_id": "kf-4-1",
+          "fact_text": "Byleth engages user with witty banter and targeted compliments",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "ecec8939-5368-46e3-9d11-b05f62b24509",
+          "matched_memory_text": "Byleth engages user with witty banter and targeted compliments",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-4-2",
+          "fact_text": "Dimitri is easily flattered and intrigued by attention",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "ea046c6d-7689-46f1-be55-3e8a13d1118c",
+          "matched_memory_text": "Dimitri is easily flattered and intrigued by attention",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 6,
+      "facts": [
+        {
+          "fact_id": "kf-6-1",
+          "fact_text": "Byleth and Dimitri are working together at Dimitri's desk, reviewing documents",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "4be788f4-3cf2-47fb-b127-5bc95396dd09",
+          "matched_memory_text": "Byleth and Dimitri are working together at Dimitri's desk, reviewing documents.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 7,
+      "facts": [
+        {
+          "fact_id": "kf-7-1",
+          "fact_text": "The professional boundary shatters",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "068fafe0-b384-4dc1-9769-4c83e82bd223",
+          "matched_memory_text": "The professional boundary shatters",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 8,
+      "facts": [
+        {
+          "fact_id": "kf-8-1",
+          "fact_text": "Pale morning light filters through the blinds",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "7627d9ab-f653-46da-a8e1-0b5e961514c7",
+          "matched_memory_text": "Pale morning light filters through the blinds",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-8-2",
+          "fact_text": "World event: Stealthy actions are taken to avoid detection",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "a1702f2f-39af-4220-a67b-4f567d5ee329",
+          "matched_memory_text": "World event: Stealthy actions are taken to avoid detection",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-8-3",
+          "fact_text": "Maintaining plausible deniability is emphasized",
+          "is_covered": false,
+          "coverage_type": "not_covered",
+          "matched_memory_id": "21d68e99-1c8b-4973-84a1-790c3593f844",
+          "matched_memory_text": "Their established relationship is clear.",
+          "confidence": 0.95,
+          "similarity_score": 0.1111111111111111
+        }
+      ],
+      "total_facts": 3,
+      "covered_facts": 2,
+      "coverage_rate": 0.6666666666666666
+    },
+    {
+      "chapter": 9,
+      "facts": [
+        {
+          "fact_id": "kf-9-1",
+          "fact_text": "Byleth feels instantly and uncomfortably seen",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "52e33846-b98d-4a44-8b27-3258ec46964f",
+          "matched_memory_text": "Byleth observes in a quiet corner of the cafeteria",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-9-2",
+          "fact_text": "A silent witness now exists",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "7627d9ab-f653-46da-a8e1-0b5e961514c7",
+          "matched_memory_text": "Pale morning light filters through the blinds",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 10,
+      "facts": [
+        {
+          "fact_id": "kf-10-1",
+          "fact_text": "Dimitri and Byleth had an intense encounter that was not regretted",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "21d68e99-1c8b-4973-84a1-790c3593f844",
+          "matched_memory_text": "Their established relationship is clear.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-10-2",
+          "fact_text": "Byleth maintains control over the narrative between them through a warm and ambiguous reply",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "b5506f34-a632-4b9b-961f-c4e2eec11fca",
+          "matched_memory_text": "Byleth maintains control over the narrative between them through a warm and ambiguous reply",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 11,
+      "facts": [
+        {
+          "fact_id": "kf-11-1",
+          "fact_text": "Phase two requires securing Sylvain",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-11-2",
+          "fact_text": "Byleth initiates a conversation about exchanging private numbers",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "be392b3d-cab2-4164-8d19-9ed47ed94ad7",
+          "matched_memory_text": "Byleth initiates a conversation about exchanging private numbers",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 12,
+      "facts": [
+        {
+          "fact_id": "kf-12-1",
+          "fact_text": "Byleth offers Annette a friendly smile as they pass",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "7f39ec40-fe82-4957-85ee-37343ab7c785",
+          "matched_memory_text": "Byleth offers Annette a friendly smile as they pass.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-12-2",
+          "fact_text": "The mask is essential",
+          "is_covered": false,
+          "coverage_type": "not_covered",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 0.15384615384615385
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "chapter": 13,
+      "facts": [
+        {
+          "fact_id": "kf-13-1",
+          "fact_text": "Byleth is observed taking a risky glance at their phone during a presentation",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "7f95565e-942c-4b60-9c0c-751d09acd83d",
+          "matched_memory_text": "Byleth is observed taking a risky glance at their phone during a presentation.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-13-2",
+          "fact_text": "Sylvain sends a suggestive notification to someone",
+          "is_covered": false,
+          "coverage_type": "not_covered",
+          "matched_memory_id": "c0a6142e-33e9-4dda-8aab-7cecc1ee5d38",
+          "matched_memory_text": "The feigned vulnerability aims to disarm his intensity, creating an opening for a more personal connection.",
+          "confidence": 0.95,
+          "similarity_score": 0.09523809523809523
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 1,
+      "coverage_rate": 0.5
+    },
+    {
+      "chapter": 15,
+      "facts": [
+        {
+          "fact_id": "kf-15-1",
+          "fact_text": "Byleth is taking Sylvain's connection offline",
+          "is_covered": true,
+          "coverage_type": "text_similarity",
+          "matched_memory_id": "9be5795a-5c45-4eb1-9855-14924fce3552",
+          "matched_memory_text": "Byleth is taking Sylvain's connection offline.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-15-2",
+          "fact_text": "Privacy is emphasized",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0ae6c710-5150-4605-b71b-f9065d6a06a2",
+          "matched_memory_text": "Privacy is emphasized",
+          "confidence": 1.0,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 16,
+      "facts": [
+        {
+          "fact_id": "kf-16-1",
+          "fact_text": "Byleth sends a carefully worded text to Dimitri, possibly indicating anticipation of a meeting or conversation",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "a39cd4f2-222f-470b-b9e8-d671a4ecc784",
+          "matched_memory_text": "Byleth sends a carefully worded text to Dimitri, possibly indicating anticipation of a meeting or conversation.",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-16-2",
+          "fact_text": "A sudden (and entirely fictional) family issue requires their presence elsewhere tonight",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "05c80fbf-0398-44e5-a6d1-464313f95a56",
+          "matched_memory_text": "A sudden (and entirely fictional) family issue requires their presence elsewhere tonight",
+          "confidence": 1.0,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 17,
+      "facts": [
+        {
+          "fact_id": "kf-17-1",
+          "fact_text": "Flirtation between Byleth and Dimitri escalates to bold touches and charged conversation",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "bf5be358-62ed-48d1-9fa6-2accb630a21c",
+          "matched_memory_text": "Flirtation between Byleth and Dimitri escalates to bold touches and charged conversation",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 18,
+      "facts": [
+        {
+          "fact_id": "kf-18-1",
+          "fact_text": "'This' refers to a secret or pact between Byleth and Dimitri",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "62b95c14-8c45-42bf-addd-2bfe0f18b363",
+          "matched_memory_text": "'This' refers to a secret or pact between Byleth and Dimitri",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-18-2",
+          "fact_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "6119a4bc-8d59-4597-8728-90f514c82d1d",
+          "matched_memory_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 19,
+      "facts": [
+        {
+          "fact_id": "kf-19-1",
+          "fact_text": "Byleth and Dimitri display passionate and unrestrained interactions",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "14f282a8-b8cb-4860-add1-b64f77cac9e2",
+          "matched_memory_text": "Byleth and Dimitri display passionate and unrestrained interactions.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-19-2",
+          "fact_text": "World event: Detailed management to maintain secrecy of character interactions",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "af99414e-c4a9-466c-827d-d0697a3480c8",
+          "matched_memory_text": "World event: Detailed management to maintain secrecy of character interactions",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 20,
+      "facts": [
+        {
+          "fact_id": "kf-20-1",
+          "fact_text": "Annette confides that Sylvain has been attentive recently",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "547cc75c-347d-4b50-a330-382982143d32",
+          "matched_memory_text": "Annette confides that Sylvain has been attentive recently.",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-20-2",
+          "fact_text": "Byleth recognizes Sylvain's attentiveness likely fueled by guilt or distraction",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "a2a7ee74-0ebf-4c14-bff4-59a423dcfe40",
+          "matched_memory_text": "Byleth recognizes Sylvain's attentiveness likely fueled by guilt or distraction",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 21,
+      "facts": [
+        {
+          "fact_id": "kf-21-1",
+          "fact_text": "The user has knowledge about potential manipulation strategies towards Sylvain and Annette",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "21629d2d-996f-4091-98a8-75e390c9b16f",
+          "matched_memory_text": "The user has knowledge about potential manipulation strategies towards Sylvain and Annette.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 22,
+      "facts": [
+        {
+          "fact_id": "kf-22-1",
+          "fact_text": "The character Byleth is displaying a masked cold calculation beneath their performance of friendship",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "c2afc804-b80d-4fa8-b99a-1975f51fccb4",
+          "matched_memory_text": "The character Byleth is displaying a masked cold calculation beneath their performance of friendship.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-22-2",
+          "fact_text": "Maintaining Annette's trust is crucial for covering Sylvain's tracks",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "6119a4bc-8d59-4597-8728-90f514c82d1d",
+          "matched_memory_text": "Byleth frames secrecy as part of the thrill and secures Sylvain's agreement.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 23,
+      "facts": [
+        {
+          "fact_id": "kf-23-1",
+          "fact_text": "Dimitri moves the connection into his personal space",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "50c35c88-817e-410f-b6ef-dcd183975f79",
+          "matched_memory_text": "Dimitri moves the connection into his personal space.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-23-2",
+          "fact_text": "Byleth recognizes the significance - a step towards deeper entanglement and control",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "cf7368a8-94d0-4365-932e-717fffd3095e",
+          "matched_memory_text": "Byleth recognizes the significance - a step towards deeper entanglement and control",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 24,
+      "facts": [
+        {
+          "fact_id": "kf-24-1",
+          "fact_text": "The world event described is a spacious and ordered environment, which might reflect Dimitri's intense personality",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "616445a7-874a-4e1b-82e2-0e025f3897e4",
+          "matched_memory_text": "The world event described is a spacious and ordered environment, which might reflect Dimitri's intense personality.",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 25,
+      "facts": [
+        {
+          "fact_id": "kf-25-1",
+          "fact_text": "Navigating doormen and potential early risers requires care",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-25-2",
+          "fact_text": "Their relationship is characterized by passion contained by meticulous secrecy",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "11b1a94f-6b37-42e6-ac2a-cdb445a05901",
+          "matched_memory_text": "Their relationship is characterized by passion contained by meticulous secrecy.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 26,
+      "facts": [
+        {
+          "fact_id": "kf-26-1",
+          "fact_text": "Dimitri has concrete evidence confirming his earlier suspicion",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "28b88c11-71ca-4cb9-8b53-bd42e4f1835a",
+          "matched_memory_text": "Dimitri has concrete evidence confirming his earlier suspicion.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-26-2",
+          "fact_text": "The knowledge settles within him",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "d6855098-5971-43da-a952-1154daa90670",
+          "matched_memory_text": "The knowledge settles within him",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 27,
+      "facts": [
+        {
+          "fact_id": "kf-27-1",
+          "fact_text": "He speaks calmly, advising prudence regarding workplace entanglements",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "0d14787a-fed6-4d58-9ebf-1e31771e578b",
+          "matched_memory_text": "A sharp mind is already at work, evaluating the office ecosystem",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 28,
+      "facts": [
+        {
+          "fact_id": "kf-28-1",
+          "fact_text": "Byleth appreciates Dedue's concern but insists the situation is under control",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "83bbf216-c63e-4ce7-bee8-6b299b1344c4",
+          "matched_memory_text": "Byleth appreciates Dedue's concern but insists the situation is under control.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 29,
+      "facts": [
+        {
+          "fact_id": "kf-29-1",
+          "fact_text": "Dimitri sends an invitation for lunch via text",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "395b1a6b-8770-4270-90c1-1cce4421d6f6",
+          "matched_memory_text": "Dimitri sends an invitation for lunch via text",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 30,
+      "facts": [
+        {
+          "fact_id": "kf-30-1",
+          "fact_text": "Dimitri's behavior feels proprietary",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "63abe1ab-3c51-41bc-bb1f-d7523b7014a7",
+          "matched_memory_text": "Dimitri's behavior feels proprietary",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 31,
+      "facts": [
+        {
+          "fact_id": "kf-31-1",
+          "fact_text": "Betrayal is being discussed in public",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "3eaccaa1-b502-4dfc-b9c7-387c0ecce581",
+          "matched_memory_text": "Betrayal is being discussed in public",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 32,
+      "facts": [
+        {
+          "fact_id": "kf-32-1",
+          "fact_text": "Dimitri's retreat is abrupt and radiating anger",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "50c35c88-817e-410f-b6ef-dcd183975f79",
+          "matched_memory_text": "Dimitri moves the connection into his personal space.",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 33,
+      "facts": [
+        {
+          "fact_id": "kf-33-1",
+          "fact_text": "Sylvain blocks byleth's path",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "817af540-145a-4996-91c7-41717e6ec4d9",
+          "matched_memory_text": "Sylvain blocks byleth's path",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 34,
+      "facts": [
+        {
+          "fact_id": "kf-34-1",
+          "fact_text": "'What the hell was that at lunch, Byleth?' Sylvain's voice is low, furious",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "d9199329-be08-4a4b-ba54-a822ebc65647",
+          "matched_memory_text": "'What the hell was that at lunch, Byleth?' Sylvain's voice is low, furious",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 35,
+      "facts": [
+        {
+          "fact_id": "kf-35-1",
+          "fact_text": "The best defense is a strong offense",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "16f5bb5c-0476-4410-8420-564d5be7875b",
+          "matched_memory_text": "The best defense is a strong offense",
+          "confidence": 1.0,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 36,
+      "facts": [
+        {
+          "fact_id": "kf-36-1",
+          "fact_text": "Annette's involvement implicitly affects Sylvain's balance",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "1120a252-e455-4a95-97dc-3f45ff1350d3",
+          "matched_memory_text": "Annette's involvement implicitly affects Sylvain's balance",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 37,
+      "facts": [
+        {
+          "fact_id": "kf-37-1",
+          "fact_text": "Sylvain's demeanor suggests conflicted uncertainty",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "845d6482-c930-472d-b7ca-33ddd05b7f2c",
+          "matched_memory_text": "Sylvain's demeanor suggests conflicted uncertainty",
+          "confidence": 0.9,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 1,
+      "covered_facts": 1,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 38,
+      "facts": [
+        {
+          "fact_id": "kf-38-1",
+          "fact_text": "A company-wide health alert appears in everyone's inbox",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "822b97af-1b9a-4b30-b7ab-ef694616d731",
+          "matched_memory_text": "A company-wide health alert appears in everyone's inbox",
+          "confidence": 1.0,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-38-2",
+          "fact_text": "It mentions monitoring a novel virus spreading rapidly overseas",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "822b97af-1b9a-4b30-b7ab-ef694616d731",
+          "matched_memory_text": "A company-wide health alert appears in everyone's inbox",
+          "confidence": 1.0,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    },
+    {
+      "chapter": 39,
+      "facts": [
+        {
+          "fact_id": "kf-39-1",
+          "fact_text": "Virus memo sparks brief discussion during coffee break",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "3eaccaa1-b502-4dfc-b9c7-387c0ecce581",
+          "matched_memory_text": "Betrayal is being discussed in public",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        },
+        {
+          "fact_id": "kf-39-2",
+          "fact_text": "Ashe admits slight unease, but the general consensus is dismissive",
+          "is_covered": true,
+          "coverage_type": "exact_key_match",
+          "matched_memory_id": "eaa7448c-6322-4cd1-9a34-43bdea249046",
+          "matched_memory_text": "Ashe admits slight unease, but the general consensus is dismissive",
+          "confidence": 0.95,
+          "similarity_score": 1.0
+        }
+      ],
+      "total_facts": 2,
+      "covered_facts": 2,
+      "coverage_rate": 1.0
+    }
+  ],
+  "summary": {
+    "overall": 0.95,
+    "by_chapter": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 0.6666666666666666,
+      "9": 1.0,
+      "10": 1.0,
+      "11": 1.0,
+      "12": 0.5,
+      "13": 0.5,
+      "15": 1.0,
+      "16": 1.0,
+      "17": 1.0,
+      "18": 1.0,
+      "19": 1.0,
+      "20": 1.0,
+      "21": 1.0,
+      "22": 1.0,
+      "23": 1.0,
+      "24": 1.0,
+      "25": 1.0,
+      "26": 1.0,
+      "27": 1.0,
+      "28": 1.0,
+      "29": 1.0,
+      "30": 1.0,
+      "31": 1.0,
+      "32": 1.0,
+      "33": 1.0,
+      "34": 1.0,
+      "35": 1.0,
+      "36": 1.0,
+      "37": 1.0,
+      "38": 1.0,
+      "39": 1.0
+    }
+  }
+}

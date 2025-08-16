@@ -1,0 +1,336 @@
+{
+  "overall": 0.03515625000000001,
+  "min_per_chapter": 0.0,
+  "by_chapter": {
+    "1": {
+      "chapter": 1,
+      "total_facts": 3,
+      "covered_count": 0,
+      "total_weight": 2.5,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-1-1",
+        "kf-1-2",
+        "kf-1-3"
+      ]
+    },
+    "2": {
+      "chapter": 2,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.95,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-2-1"
+      ]
+    },
+    "3": {
+      "chapter": 3,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-3-1"
+      ]
+    },
+    "7": {
+      "chapter": 7,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.95,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-7-1"
+      ]
+    },
+    "8": {
+      "chapter": 8,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.85,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-8-1"
+      ]
+    },
+    "9": {
+      "chapter": 9,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-9-1"
+      ]
+    },
+    "10": {
+      "chapter": 10,
+      "total_facts": 1,
+      "covered_count": 1,
+      "total_weight": 0.9,
+      "covered_weight": 0.9,
+      "coverage": 1.0,
+      "covered_facts": [
+        "kf-10-1"
+      ],
+      "missed_facts": []
+    },
+    "11": {
+      "chapter": 11,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.85,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-11-1"
+      ]
+    },
+    "13": {
+      "chapter": 13,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-13-1"
+      ]
+    },
+    "15": {
+      "chapter": 15,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.8,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-15-1"
+      ]
+    },
+    "16": {
+      "chapter": 16,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-16-1"
+      ]
+    },
+    "17": {
+      "chapter": 17,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-17-1"
+      ]
+    },
+    "18": {
+      "chapter": 18,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-18-1"
+      ]
+    },
+    "19": {
+      "chapter": 19,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.95,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-19-1"
+      ]
+    },
+    "23": {
+      "chapter": 23,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-23-1"
+      ]
+    },
+    "26": {
+      "chapter": 26,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.95,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-26-1"
+      ]
+    },
+    "27": {
+      "chapter": 27,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-27-1"
+      ]
+    },
+    "29": {
+      "chapter": 29,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.85,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-29-1"
+      ]
+    },
+    "31": {
+      "chapter": 31,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.95,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-31-1"
+      ]
+    },
+    "34": {
+      "chapter": 34,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-34-1"
+      ]
+    },
+    "35": {
+      "chapter": 35,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-35-1"
+      ]
+    },
+    "38": {
+      "chapter": 38,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.8,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-38-1"
+      ]
+    },
+    "39": {
+      "chapter": 39,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.75,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-39-1"
+      ]
+    },
+    "40": {
+      "chapter": 40,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.85,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-40-1"
+      ]
+    },
+    "42": {
+      "chapter": 42,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-42-1"
+      ]
+    },
+    "45": {
+      "chapter": 45,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-45-1"
+      ]
+    },
+    "47": {
+      "chapter": 47,
+      "total_facts": 1,
+      "covered_count": 0,
+      "total_weight": 0.9,
+      "covered_weight": 0,
+      "coverage": 0.0,
+      "covered_facts": [],
+      "missed_facts": [
+        "kf-47-1"
+      ]
+    }
+  },
+  "total_keyfacts": 27,
+  "covered_keyfacts": 1,
+  "total_weight": 25.599999999999998,
+  "covered_weight": 0.9
+}

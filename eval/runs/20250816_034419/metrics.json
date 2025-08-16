@@ -1,0 +1,124 @@
+{
+  "retrieval": {
+    "overall": {
+      "precision_at_5": 0.1,
+      "recall_at_10": 1.0,
+      "mrr": 0.5,
+      "num_queries": 1
+    },
+    "by_mem_type": {
+      "IC": {
+        "precision_at_5": 0.1,
+        "recall_at_10": 1.0,
+        "mrr": 0.5,
+        "num_queries": 1
+      },
+      "WM": {
+        "precision_at_5": 0.1,
+        "recall_at_10": 1.0,
+        "mrr": 0.5,
+        "num_queries": 1
+      }
+    },
+    "by_chapter_bucket": {
+      "31-40": {
+        "precision_at_5": 0.1,
+        "recall_at_10": 1.0,
+        "mrr": 0.5,
+        "num_queries": 1
+      }
+    }
+  },
+  "consistency": {
+    "time_overlap_conflicts": 0,
+    "world_future_leaks": 0,
+    "crosstalk_leaks": 0,
+    "symmetry_violations": 1,
+    "details": {
+      "overlap": [],
+      "leaks": [],
+      "crosstalk": [],
+      "symmetry": [
+        {
+          "type": "symmetry_violation",
+          "predicate": "relationship_status",
+          "memory": {
+            "id": "test-3",
+            "subjects": [
+              "dimitri",
+              "byleth"
+            ],
+            "fact_text": "Byleth and Dimitri started a secret affair."
+          },
+          "issue": "Subjects not sorted: ['dimitri', 'byleth'] should be ['byleth', 'dimitri']"
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "overall": 1.0,
+    "min_per_chapter": 1.0,
+    "by_chapter": {
+      "26": {
+        "chapter": 26,
+        "total_facts": 1,
+        "covered_count": 1,
+        "total_weight": 3,
+        "covered_weight": 3,
+        "coverage": 1.0,
+        "covered_facts": [
+          "kf-26-1"
+        ],
+        "missed_facts": []
+      }
+    },
+    "total_keyfacts": 1,
+    "covered_keyfacts": 1,
+    "total_weight": 3,
+    "covered_weight": 3
+  },
+  "status": "FAIL",
+  "gate_results": {
+    "precision_at_5": {
+      "status": "FAIL",
+      "expected": ">= 0.65",
+      "actual": 0.1
+    },
+    "recall_at_10": {
+      "status": "PASS",
+      "expected": ">= 0.75",
+      "actual": 1.0
+    },
+    "mrr": {
+      "status": "FAIL",
+      "expected": ">= 0.7",
+      "actual": 0.5
+    },
+    "max_time_overlap_conflicts": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "max_world_future_leaks": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "max_crosstalk_leaks": {
+      "status": "PASS",
+      "expected": "<= 0",
+      "actual": 0
+    },
+    "min_overall": {
+      "status": "FAIL",
+      "expected": ">= 0.75",
+      "actual": 0.0
+    },
+    "min_per_chapter": {
+      "status": "PASS",
+      "expected": ">= 0.6",
+      "actual": 1.0
+    }
+  },
+  "timestamp": "20250816_034419"
+}
