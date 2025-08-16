@@ -122,38 +122,6 @@ sekai-memory/
     └── entity_registry.py            # Entity definitions
 ```
 
-## Troubleshooting
-
-### Ollama Issues
-
-```bash
-# Check if Ollama is running
-ollama list
-
-# Restart Ollama service
-ollama serve
-
-# Verify Mistral 7B is available
-ollama show mistral:7b
-```
-
-### Memory Store Not Found
-
-```bash
-# Check if memory files exist
-ls -la *.jsonl
-
-# Use --memory-store flag to specify path
-python query_memories.py --memory-store "path/to/memories.jsonl"
-```
-
-### Import Errors
-
-```bash
-# Ensure you're in the project root
-cd sekai-memory
-python -c "import sys; sys.path.append('.'); import storage.simple_memory_store"
-```
 
 ## API Reference
 
